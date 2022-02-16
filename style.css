@@ -1,0 +1,51 @@
+body {
+    background-color: lightblue;
+  }
+  .h1 :hover{ 
+      background: yellow;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  h1 {
+    background-color: red;
+    color: white;
+    text-align: right;
+    a:hover { background-color:yellow;}
+    
+    
+        
+
+
+  }
+  
+  }
+  p {
+    font-family: verdana;
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    
+}
+.Gotomylinkedin{
+    background:yellow;
+    color: aqua;
+    text-decoration:none;
+    
+}
+.Gotomylinkedin:hover{
+    background: red;
+}
+div {
+    height: 100px;
+    width: 100px;
+    background-color: powderblue;
+  }
+
+    
+    
+      
+      
+  
