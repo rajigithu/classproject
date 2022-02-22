@@ -1,51 +1,76 @@
-body {
-    background-color: lightblue;
-  }
-  .h1 :hover{ 
-      background: yellow;
-  }
-  
-  h1 {
-    color: white;
-    text-align: center;
-  }
-  h1 {
-    background-color: red;
-    color: white;
-    text-align: right;
-    a:hover { background-color:yellow;}
-    
-    
-        
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 
-
-  }
+body{
+  background: grey;
+  font-size: 20px;
   
-  }
-  p {
-    font-family: verdana;
-    font-size: 30px;
-    text-align: center;
-    color: red;
-    
 }
-.Gotomylinkedin{
-    background:yellow;
-    color: aqua;
-    text-decoration:none;
-    
-}
-.Gotomylinkedin:hover{
-    background: red;
-}
-div {
-    height: 100px;
-    width: 100px;
-    background-color: powderblue;
-  }
 
-    
-    
-      
-      
-  
+.introP{
+  text-decoration: underline;
+}
+
+.row div{
+  height: 400px;
+}
+
+.col {
+  margin: auto 0;
+  text-align:center;  
+}
+
+.firstCol{
+  background: pink;
+}
+
+.col:hover{
+  background: green;
+  cursor: help;
+}
+
+.secondCol{
+  background: black;
+  color:white;
+  font-weight:bold;
+  font-size: 30px;
+}
+
+.thirdCol{
+  background: #800000;
+  color:white;
+  font-size: 20px;
+}
+
+h1{
+  text-align: right;
+  background: yellow;
+}
+
+h1:hover{
+  background: black;
+  color: yellow;
+}
+
+a{
+  text-align:center;
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+  text-decoration:none;
+  background: green;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+  border: 5px dashed orange;
+}
+
+a:hover{
+  background: red;
+  border-radius: 0px;
+  color: white;
+  font-weight: bold;
+}
+
